@@ -13,7 +13,7 @@ const Contact = () => {
     e.preventDefault();
 
     // Replace this with your StaticForms access key
-    const accessKey = "e44fc5d0-0b52-4cb1-9f79-fefc3800d89c";
+    const accessKey = "c06a3988-c923-43ee-9f24-f4969a9f79b1";
 
     try {
       const response = await fetch("https://api.staticforms.xyz/submit", {
@@ -32,7 +32,7 @@ const Contact = () => {
       });
 
       if (response.ok) {
-        alert("✅ Your message has been sent successfully!");
+        alert("✅ Sõnum edukalt saadetud!");
         setFormData({
           name: '',
           email: '',
@@ -40,11 +40,11 @@ const Contact = () => {
           message: '',
         });
       } else {
-        alert("❌ Failed to send the message. Please try again later.");
+        alert("❌ Ei läinud läbi. Proovi uuesti.");
       }
 
       if (response.ok) {
-        alert("Your message has been sent successfully!");
+        alert("Sõnum saadetud!");
         setFormData({
           name: '',
           email: '',
@@ -52,7 +52,7 @@ const Contact = () => {
           message: '',
         });
       } else {
-        alert("Failed to send the message. Please try again later.");
+        alert("Sõnumit ei saadetud. Proovi uuesti.");
       }
     } catch (error) {
       console.error("Error sending the message:", error);
