@@ -26,7 +26,7 @@ const Contact = () => {
           email: formData.email,
           phone: formData.phone,
           message: formData.message,
-          replyTo: "@",
+          replyTo: "@", 
         }),
       });
 
@@ -54,23 +54,6 @@ const Contact = () => {
     });
   };
 
-  const InputField = ({ id, label, type, value, onChange, required = true }) => (
-    <div>
-      <label htmlFor={id} className="block text-sm font-medium text-gray-700">
-        {label}
-      </label>
-      <input
-        type={type}
-        id={id}
-        name={id}
-        value={value}
-        onChange={onChange}
-        className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
-        required={required}
-      />
-    </div>
-  );
-
   return (
     <section id="contact" className="py-20">
       <div className="container mx-auto px-4">
@@ -79,27 +62,51 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <form onSubmit={handleSubmit} className="space-y-6">
-              <InputField
-                id="name"
-                label="Nimi"
-                type="text"
-                value={formData.name}
-                onChange={handleChange}
-              />
-              <InputField
-                id="email"
-                label="E-post"
-                type="email"
-                value={formData.email}
-                onChange={handleChange}
-              />
-              <InputField
-                id="phone"
-                label="Telefon"
-                type="tel"
-                value={formData.phone}
-                onChange={handleChange}
-              />
+              <div>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                  Nimi
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  required
+                />
+              </div>
+
+              <div>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                  E-post
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  required
+                />
+              </div>
+
+              <div>
+                <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+                  Telefon
+                </label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                  required
+                />
+              </div>
+
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700">
                   Sõnum
@@ -114,6 +121,7 @@ const Contact = () => {
                   required
                 ></textarea>
               </div>
+
               <button
                 type="submit"
                 className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors"
