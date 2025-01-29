@@ -20,15 +20,14 @@ const Hero = () => {
               Professionaalne torulukksepa teenus Rakveres
             </h1>
             <p className="text-xl mb-8">
-              Usaldusväärne ja kvaliteetne torulukksepa teenus. Oleme teie teenistuses 
-              hädaolukordade puhul.
+            Usaldusväärne torulukksepa teenus Rakveres - Kiire ja kvaliteetne lahendus teie vee- ja kanalisatsiooniprobleemidele.
             </p>
             <div className="bg-gray-900/80 p-6 rounded-lg backdrop-blur-sm">
               <a 
                 href="#contact"
                 className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-colors"
               >
-                Võta ühendust
+                Võta meiega ühendust
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </div>

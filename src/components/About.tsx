@@ -14,9 +14,9 @@ const About = () => {
           <div>
             <h2 className="text-3xl font-bold mb-6">Meist</h2>
             <p className="text-gray-600 mb-6">
-              Malm & Ko on usaldusväärne torulukksepa teenuse pakkuja Rakveres ja selle 
-              ümbruses. Meie meeskond on pühendunud pakkuma kvaliteetset teenust ja 
-              kiiret reageerimist teie torulukuprobleemidele.
+              Malm & Ko on pikaajalise kogemusega torulukksepa teenuse pakkuja Rakveres
+              ja selle ümbruses. Oleme pühendunud kvaliteetse ja kiire teenuse pakkumisele,
+              et tagada teie vee- ja kanalisatsioonisüsteemide tõrgeteta toimimine.
             </p>
             
             <div className="space-y-4">

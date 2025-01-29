@@ -5,27 +5,27 @@ const services = [
   {
     icon: <PipeValve className="w-10 h-10 text-blue-400" />,
     title: 'Veevarustussüsteemide ehitus',
-    description: 'Täielik veevarustussüsteemide paigaldus ja hooldus'
+    description: 'Paigaldame ja hooldame veevarustussüsteeme tagamaks teie kodule või ettevõttele stabiilse veevoolu'
   },
   {
     icon: <Droplets className="w-10 h-10 text-blue-400" />,
     title: 'Veetorustike ehitus',
-    description: 'Professionaalne veetorustike paigaldus'
+    description: 'Täpne ja professionaalne veetorude paigaldus, mis tagab süsteemi pikaajalise töökindluse'
   },
   {
     icon: <Construction className="w-10 h-10 text-blue-400" />,
     title: 'Kanalisatsioonisüsteemide ehitus',
-    description: 'Kaasaegsed lahendused kanalisatsioonisüsteemidele'
+    description: 'Pakume kaasaegseid ja vastupidavaid lahendusi kanalisatsioonisüsteemide ehituseks ja remondiks'
   },
   {
     icon: <Camera className="w-10 h-10 text-blue-400" />,
     title: 'Torustike kaamerauuringud',
-    description: 'Täpne diagnostika kaamera abil'
+    description: 'Diagnostika kaameraga aitab kiiresti leida ja lahendada torustikus esinevad probleemid'
   },
   {
     icon: <Wrench className="w-10 h-10 text-blue-400" />,
     title: 'Ummistuste likvideerimine',
-    description: 'Kiire ja efektiivne ummistuste kõrvaldamine'
+    description: 'Kiire ja efektiivne teenus, mis kõrvaldab torude ummistused ja taastab normaalse vee äravoolu'
   }
 ];
 

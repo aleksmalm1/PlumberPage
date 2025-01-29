@@ -17,7 +17,8 @@ const Footer: React.FC = () => {
               <span className="text-xl font-bold">Malm & Ko</span>
             </div>
             <p className="text-gray-400">
-              Professionaalne torulukksepa teenus Rakveres ja selle ümbruses.
+             Malm & Ko - Kogenud ja usaldusväärne torumees Rakveres.
+             Helista meile või saada päring juba täna!
             </p>
           </div>
           
