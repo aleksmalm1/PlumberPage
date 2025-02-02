@@ -12,7 +12,7 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    const accessKey = "c06a3988-c923-43ee-9f24-f4969a9f79b1";
+    const accessKey = "bed88b12-7107-46be-a76c-d95fd7248487";
 
     try {
       const response = await fetch("https://api.staticforms.xyz/submit", {
